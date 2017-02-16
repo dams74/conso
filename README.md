@@ -1,5 +1,5 @@
 # Plugin Jeedom Suivi conso
-
+![alt tag](https://github.com/mickeys27/conso/blob/master/doc/images/conso_pres.png)
 
 .*V2.10 *
 - Correction pour Docker
