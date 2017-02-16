@@ -1,0 +1,26 @@
+=== Utilisation sans téléinfo.( Obsoletes) Le plugin gère maintenant tous les modules
+L'objectif de ce tuto est d'utiliser le Plugin sans les informations remontées par la telinfo. +
+Si il vous manque : PTEC , index ...
+
+link:https://www.jeedom.fr/forum/viewtopic.php?f=28&t=8500&p=209667#p209667[Voir le Tuto]
+
+==== Plugins necessaires
+- Plugin Suivi Conso
+- Virtuel
+- Agenda (Si HC / HP )
+
+
+Merci  fcna et mutmut
+
+==== Questions Fréquentes
+
+===== Je ne trouve pas le Widget dans le Dashboard de Jeedom
+Le plugin ne s'affiche pas sur le Dashboard de jeeedom mais dans un panel. Il faut se rendre dans l'onglet Accueil->Suivi Conso
+
+===== Le Panel ne s affiche pas dans L'onglet Accueil
+Il faut activer l'affichage dans la configuration du plugin (Plugin->Gestion des plugins->suivi Conso->Afficher le panel desktop)
+
+===== Le plugin ne passe pas de HP a HC
+Si vous passez par le plugin teleinfo , il faut verifier que la commande PTEC soit de type Autre puis relancer le Deamon Téléinfo
+
+
