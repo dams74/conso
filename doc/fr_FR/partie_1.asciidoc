@@ -1,20 +1,20 @@
 :imagesdir: ../images/
 
-Pour configurer votre Èquipement il faut se rendre dans l'onglet du plugin Suivi Conso. +
+Pour configurer votre √©quipement il faut se rendre dans l'onglet du plugin Suivi Conso. +
 Plugins / Energie / Suivi Conso +
 
-Cliquer sur "Ajouter un Èquipement" +
+Cliquer sur "Ajouter un √©quipement" +
 image:ecq.png[]
 
 
-*Libelle* : Nom de votre equipement +
+*Libelle* : Nom de votre √©quipement +
 
-*Type* : ElectricitÈ ou Eau +
+*Type* : Electricit√© ou Eau +
 
-*Objet Parent* : renseigner la categorie de votre quipement. +
+*Objet Parent* : renseigner la cat√©gorie de votre √©quipement. +
 
-*Equipement parent* : Permet de rattacher un Èquipement ‡† un parent afin de recuprer  les informations du pËre. +
-*Information rÈcuperÈes du parent : *+
+*Equipement parent* : Permet de rattacher un √©quipement √†¬† un parent afin de r√©cuprer  les informations du p√®re. +
+*Information r√©cup√©r√©es du parent : *+
 - Abonnement +
 - Compteur +
 - Type +
@@ -23,27 +23,27 @@ image:ecq.png[]
 
 *Abonnement :* Bleu(Heure pleine heure creuse),Base (heure pleine) +
 
-*Je n'ai que la consommation de mon equipement (Exemple FGD-212)  :* +
+*Je n'ai que la consommation de mon √©quipement (Exemple FGD-212)  :* +
 - Commande disponible : +
 	 - Consommation Kwh ou Wh +
 	 - Puissance PAPP
 
-*je n'ai que la puissance de mon Èquipement (Exemple FGD-211) :* +
+*je n'ai que la puissance de mon √©quipement (Exemple FGD-211) :* +
 - Commande disponible : +
-	 - Etat : Votre Èquipement est allumÈ ou Èteint (Type : numerique 0 ou 1 ) +
-	 - Consommation Èlectrique dÈclarÈe  (Wh) La consommation de vos ampoules ou Èquipements une fois mesurÈe
+	 - Etat : Votre √©quipement est allum√© ou √©teint (Type : numerique 0 ou 1 ) +
+	 - Consommation √©lectrique d√©clar√©e  (Wh) La consommation de vos ampoules ou √©quipements une fois mesur√©e
 
-Si votre Èquipement est un total ( teleinformation ) mettre Total ‡† Oui. +
-Le bouton Defaut permet d afficher un equipement au demarrage de votre panel. +
+Si votre √©quipement est un total ( t√©l√© information ) mettre Total √†¬† Oui. +
+Le bouton D√©faut permet d'afficher un equipement au d√©marrage de votre panel. +
 
-Une fois les informations renseignÈes, il faut ajouter les commandes necessaires au bon fonctionnement du plugin . +
+Une fois les informations renseign√©es, il faut ajouter les commandes n√©c√©ssaires au bon fonctionnement du plugin . +
 Pour cela cliquer sur "Ajouter les commandes" +
 
 image:add_cmd.jpg[]
 
-Pour selectionner les commandes il faut cliquer sur la pastille verte ou orange pour rÈcupÈrer les informations . +
+Pour s√©lectionner les commandes il faut cliquer sur la pastille verte ou orange pour r√©cup√©rer les informations . +
 image:configuration.jpg[]
 
 
-Puis il vous faut rÈcupÈrer les commandes configurÈes dans jeedom. +
+Puis il vous faut r√©cup√©rer les commandes configur√©es dans jeedom. +
 image:commandes.jpg[]
