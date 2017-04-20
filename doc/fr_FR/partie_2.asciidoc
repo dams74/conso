@@ -1,52 +1,52 @@
 :imagesdir: ../images/
 
-Pour accÈder au panel aller dans l'onglet Accueil / Suivi Conso
+Pour acc√©der au panel aller dans l'onglet Accueil / Suivi Conso
 
 ==== Le menu
 image:menu.png[]
 
-Les onglets de paramÈtrages sont en vert
+Les onglets de param√©trages sont en vert
 
 ==== Accueil
-La page d'accueil vous permet de visualiser sur une meme page les informations les plus importantes +
+La page d'accueil vous permet de visualiser sur une m√™me page les informations les plus importantes +
 
 *Prix* +
-Ce tableau retourne le cout de votre consommation par Jour / Semaine / Mois et AnnÈe. +
+Ce tableau retourne le cout de votre consommation par Jour / Semaine / Mois et Ann√©e. +
 
-Vous pouvez afficher le dÈtail en vous positionnant sur le libellÈ +
+Vous pouvez afficher le d√©tail en vous positionnant sur le libell√© +
 *HP/HB TTC et HC TTC :* Prix HT + TVA +
 *TOTAL TTC :* Prix TTC + Abonnement + TVA + Taxes +
-AnnÈe : vous pouvez paramÈtrer la date de debut de votre annÈe dans l'onglet outil
+Ann√©e : vous pouvez param√©trer la date de debut de votre ann√©e dans l'onglet outil
 
 image:prix.png[]
 
 *Watt* + 
-Ce Tableau vous affiche la consommation par Jour / Semaine / Mois et AnnÈe. +
+Ce Tableau vous affiche la consommation par Jour / Semaine / Mois et Ann√©e. +
 
-Vous pouvez afficher le dÈtail en vous positionnant sur le libellÈ +
+Vous pouvez afficher le d√©tail en vous positionnant sur le libell√© +
 image:watt.jpg[]
 
 *Puissance* +
-Puissance instantanÈe sous forme de gauge +
+Puissance instantan√©e sous forme de gauge +
 image:gauge.jpg[]
 
 *Variation* +
 Ce Tableau vous informe des variations de puissance +
-Il vous permet de voir la diffÈrence de puissance entre chaque relevÈs +
-Heure / puissance / DiffÈrence par rapport au dernier relevÈ / Type Abonnement +
+Il vous permet de voir la diff√©rence de puissance entre chaque relev√©s +
+Heure / puissance / Diff√©rence par rapport au dernier relev√© / Type Abonnement +
 *Il est possible que ce tableau ne s'affiche pas lors du lancement du plugin , il faut alors attendre quelque heures.* +
 image:variation.jpg[]
 
 *Statistique* +
--  Du jour , de la semaine, du mois , de l'annÈe disponible en cliquant sur les flËches
- - Consommation par Èquipement +
+-  Du jour , de la semaine, du mois , de l'ann√©e disponible en cliquant sur les fl√®ches
+ - Consommation par √©quipement +
  - La consommation  +
  - Pourcentage en HP et HC +
  - Consommation du jour +
 image:percent.png[]
 
 *Graphique du jour* +
- - La puissance instantanÈe +
+ - La puissance instantan√©e +
  - La consommation du jour +
  - La consommation de la veille +
  - La puissance maximale et minimale du jour +
@@ -66,151 +66,151 @@ En passant la souris sur le graphique vous pouvez afficher le detail. +
 image:graph_detail.jpg[]
 
 Le dernier tableau est un graphique TTC +
-*Taxe Fixe :* Abonnement + Taxes fixes paramÈtrÈes dans l'onglet Taxes + TVA +
-*Taxe Variable :* Taxes variables paramÈtrÈes dans l onglet Taxes + TVA +
+*Taxe Fixe :* Abonnement + Taxes fixes param√©tr√©es dans l'onglet Taxes + TVA +
+*Taxe Variable :* Taxes variables param√©tr√©es dans l onglet Taxes + TVA +
 
 image:graph_taxe.png[]
 
 ==== Factures ( en dev )
-Cet onglet vous permet d 'afficher les factures EDF, elles sont gÈnÈrÈes automatiquement en fonction des paramatres Prix , Taxe, Abonnement et TVA +
-Pour gÈnÈrer une facture il faut ajouter une pÈriode onglet "PÈriodes" du menu +
+Cet onglet vous permet d 'afficher les factures EDF, elles sont g√©n√©r√©es automatiquement en fonction des param√®tres Prix , Taxe, Abonnement et TVA +
+Pour g√©n√©rer une facture il faut ajouter une p√©riode onglet "P√©riodes" du menu +
 
 image:facture.jpg[]
 
 ==== Graphiques
-Cet onglet vous permet d'afficher des graphiques selon une periode definie dans l'onglet "PÈriodes". +
+Cet onglet vous permet d'afficher des graphiques selon une periode definie dans l'onglet "P√©riodes". +
 
 image:onglet_graph.jpg[]
 
-==== PÈriodes
-Grace a cet onglet vous allez pouvoir gÈnÈrer des factures et des graphique selon une borne de date. +
+==== P√©riodes
+Grace a cet onglet vous allez pouvoir g√©n√©rer des factures et des graphique selon une borne de date. +
 image:onglet_periodes.png[]
 
-Pour creer une periode il faut cliquer sur "Ajouter une pÈriode" +
+Pour cr√©er une periode il faut cliquer sur "Ajouter une p√©riode" +
 
-*Libelle* : nom de votre pÈriode ( c'est le titre de votre facture et/ou de votre graphique ) +
-*Date dÈbut :* debut de votre facture ou/et graphique +
+*Libelle* : nom de votre p√©riode ( c'est le titre de votre facture et/ou de votre graphique ) +
+*Date d√©but :* debut de votre facture ou/et graphique +
 *Date fin :*  fin de votre facture et/ou facture +
 *Affichage  ( HP , HB ,HC ) :* type de graphique ( en ligne , en bar ..) pour chaque index. +
 *Regrouper par :* jour , semaine , mois +
 *Type  :* Watt ou Euro +
-*Affichage Facture :* gÈnÈrer une facture pour cette pÈriode ( oui ou non ) +
-*Affichage Graphique :* gÈnÈrer un graphique pour cette pÈriode ( oui ou non ) +
-*Afficher annÈe prÈcÈdente :* cela vous permet d'afficher sur le meme graphique la courbe de l'annÈe derniere +
-*Equipement :* Quel equipement pour cette periode +
+*Affichage Facture :* g√©n√©rer une facture pour cette p√©riode ( oui ou non ) +
+*Affichage Graphique :* g√©n√©rer un graphique pour cette p√©riode ( oui ou non ) +
+*Afficher ann√©e pr√©c√©dente :* cela vous permet d'afficher sur le m√™me graphique la courbe de l'ann√©e derni√®re +
+*Equipement :* Quel √©quipement pour cette p√©riode +
 
-Lorsque vous selectionnez "Afficher annÈe prÈcendente" vous pouvez choisir quel type de graphique √† afficher ( ligne bar ....) +
+Lorsque vous selectionnez "Afficher ann√©e pr√©cendente" vous pouvez choisir quel type de graphique √É¬† afficher ( ligne bar ....) +
 image:upd_periode.png[]
 
 ==== Prix
-Cet onglet permet de configurer les prix pour le dÈtail de votre facture, des tableaux sur la page d'accueil et du detail de chaque graphique +
-[red]#Lors de la crÈation ou de la modification du prix une syncho jour est lancÈe pour re calculer les prix.# +
+Cet onglet permet de configurer les prix pour le d√©tail de votre facture, des tableaux sur la page d'accueil et du d√©tail de chaque graphique +
+[red]#Lors de la cr√©ation ou de la modification du prix une syncho jour est lanc√©e pour re calculer les prix.# +
 Les prix sont HT +
 Pour ajouter un prix il faut cliquer sur "Ajouter un Prix " +
-Pour editer un prix il faut cliquer sur le petit crayon vert +
+Pour √©diter un prix il faut cliquer sur le petit crayon vert +
 
-[red]#La valeur ne peut etre supÈrieure √†  9.9999# +
-[red]#Si une valeur supÈrieure a 9.9999 est renseignÈ, alors il affichera 9.9999# +
+[red]#La valeur ne peut √™tre sup√©rieure √É¬†  9.9999# +
+[red]#Si une valeur sup√©rieure √† 9.9999 est renseign√©, alors il affichera 9.9999# +
 
 
 ==== Abo
-L'onglet Abo permet de parametrer le c√¥ut de votre abonnement. +
+L'onglet Abo permet de param√©trer le co√ªt de votre abonnement. +
 Pour ajouter un abonnement il faut cliquer sur "Ajouter un Abonnement" +
 Pour editer un abonnement il faut cliquer sur le petit crayon vert +
 
 ==== Les Taxes
-Les taxes sont utilisÈes dans l'onglet Facture. +
-Lorsqu'une taxe n'est pas calculÈe par rapport a la consommation, le champ MultipliÈ doit etre a oui. +
-Comme par exemple : Contribution Tarifaire d‚ÄôAcheminement ElectricitÈ (CTA). +
+Les taxes sont utilis√©es dans l'onglet Facture. +
+Lorsqu'une taxe n'est pas calcul√©e par rapport √† la consommation, le champ Multipli√© doit √™tre a oui. +
+Comme par exemple : Contribution Tarifaire d'Acheminement Electricit√© (CTA). +
 Fixe : cette taxe sera dans le calcul des taxes fixe ( graphique taxes TTC )
 Varaible  : cette taxe sera dans le calcul des taxes variable ( graphique taxes TTC )
 
 
 ==== TVA
-Cet onglet permet de paramÈtrer la TVA. +
-Le champ global n'est pour le moment pas utilisÈ, il faut le laisser sur non. +
+Cet onglet permet de param√©trer la TVA. +
+Le champ global n'est pour le moment pas utilis√©, il faut le laisser sur non. +
 
 ==== info
-Cet onglet affiche les informations techniques de des command. +
+Cet onglet affiche les informations techniques des commandes. +
 Vous pouvez visualiser, modifier et supprimer les informations de la table teleinfo et  jour. +
 Cela vous permet de verifier le bon fonctionnement du cron et des valeurs. +
 
 ==== Outils
 Synchroniser Aujourd'hui : permet de recalculer le jour.+
-Synchroniser les jours : permet de recalculer de tous les jours. +
-[red]#Purger : ATTENTION ce bouton vide votre table teleinfio du plugin, une confirmation est demandÈe pour poursuivre votre choix.# +
-Cependant avant de vider la table, par sÈcuritÈ, une sauvegarde est ÈffÈctuÈe automatiquement. +
-Vous n'avez pas acc√®s √† cette table de sauvegarde par l interface. ( a faire ). +
-Changement ID Equipement : lors de la mise a jour de la V1 vers la V2 , toutes les informations sont mise a jour pour associer les donnÈes a un equipement. +
-Si vous avez des problemes d equipement a 0 il faut alors utiliser ce bouton. +
-*Lien du bouton retour :* pour ajouter une lien sur un bouton retour du menu (√† gauche de la selection de l'Èquipement dans le menu )
+Synchroniser les jours : permet de recalculer tous les jours. +
+[red]#Purger : ATTENTION ce bouton vide votre table teleinfio du plugin, une confirmation est demand√©e pour poursuivre votre choix.# +
+Cependant avant de vider la table, par s√©curit√©, une sauvegarde est √©ff√©ctu√©e automatiquement. +
+Vous n'avez pas acc√®s √†¬† cette table de sauvegarde par l interface. ( a faire ). +
+Changement ID Equipement : lors de la mise a jour de la V1 vers la V2 , toutes les informations sont mise a jour pour associer les donn√©es a un equipement. +
+Si vous avez des problemes d'equipement a 0 il faut alors utiliser ce bouton. +
+*Lien du bouton retour :* pour ajouter une lien sur un bouton retour du menu (√É¬† gauche de la selection de l'√©quipement dans le menu )
 image:onglet_outil.png[]
 
 ==== Changement ID Equipement
 image:change_ecq.png[] +
 
 Si vous voulez changer les id 0 par un autre id ( 150 cf image du dessus  ex ) +
-Tous les ID 0 seront modifiÈs par 150  +
+Tous les ID 0 seront modifi√©s par 150  +
 
-Pour connaitre l id de votre equipement , regarder dans le menu deroulant du menu gÈnÈral du panel +
+Pour connaitre l id de votre equipement , regarder dans le menu deroulant du menu g√©n√©ral du panel +
 
 image:ecq_menu.png[]
 
-==== Supprimer les donnÈes d' un quipement
-Vous pouvez supprimer les donnÈes d'un Èquipement si vous avez rencontrÈ des problemes avec une commande +
-Selectionner la date de debut, la date de fin et l Èquipement  dans la liste dÈroulante +
-Les donnÈes seront supprimÈes definitivement selon les crit√®res  +
-Une Synchronisation est necessaire pour visualiser les correction dans le panel +
+==== Supprimer les donn√©es d'un √©quipement
+Vous pouvez supprimer les donn√©es d'un √©quipement si vous avez rencontr√© des problemes avec une commande +
+Selectionner la date de debut, la date de fin et l √©quipement  dans la liste d√©roulante +
+Les donn√©es seront supprim√©es definitivement selon les crit√®res  +
+Une Synchronisation est n√©c√©ssaire pour visualiser les correction dans le panel +
 
 image:delete_ecq.png[]
 
 ==== Sauvegarde / Import
-Gr√¢ce √† cet onglet vous allez pouvoir sauvegarder, importer et historiser vos relevÈs de consommation . +
-Il est maintenant possible de sÈcuriser vos donnÈes en cas de crash de la SD, externaliser votre historique et ainsi allÈger votre espace de stockage, ainsi le backup jeedom sera plus lÈgÈ et donc plus rapide. +
+Gr√É¬¢ce √É¬† cet onglet vous allez pouvoir sauvegarder, importer et historiser vos relev√©s de consommation . +
+Il est maintenant possible de s√©curiser vos donn√©es en cas de crash de la SD, externaliser votre historique et ainsi all√©ger votre espace de stockage, ainsi le backup jeedom sera plus l√©g√© et donc plus rapide. +
 
 image:backup.png[]
 
-==== Creer une sauvegarde
+==== Cr√©er une sauvegarde
 Vous pouvez selectionner l'emplacement du dossier pour vos archives. +
 Par defaut : ressources/backup/
 
-Si vous cliquer sur "creer une sauvegarde" vous pouvez sauvegarder : +
-	- Toutes votre base de donnÈes teleinfo +
-	- Nombre de mois, si le champ "Sauvegarde les valeurs de plus de * mois"  est renseignÈ +
+Si vous cliquer sur "cr√©er une sauvegarde" vous pouvez sauvegarder : +
+	- Toutes votre base de donn√©es teleinfo +
+	- Nombre de mois, si le champ "Sauvegarde les valeurs de plus de * mois"  est renseign√© +
 
 Vous pouvez choisir quel type de sauvegarde : +
 
 - Zip : pour gagner de la place sur votre machine +
-- SQL : plus souple a utilisÈ pour effectuer un import sur une autre machine +
-- CSV : plus pratique pour comparer des donnÈes avec Excel +
+- SQL : plus souple a utilis√© pour effectuer un import sur une autre machine +
+- CSV : plus pratique pour comparer des donn√©es avec Excel +
 
 image:choix_type_backup.png[]
 
-Une fois le backup lancÈ vous pouvez suivre le traitement dans la partie de droite " Information" +
-Le traitement terminÈ,  la sauvegarde se trouve dans la liste deroulante et le message suivant d'affiche : +
+Une fois le backup lanc√© vous pouvez suivre le traitement dans la partie de droite " Information" +
+Le traitement termin√©,  la sauvegarde se trouve dans la liste deroulante et le message suivant d'affiche : +
 ----
 [END CONSO_HISTORIQUE SUCCESS]
 ----
 
-Une fois la sauvegarde crÈÈe, vous pouvez supprimer l\'histoique de plus de  * mois. +
+Une fois la sauvegarde cr√©√©e, vous pouvez supprimer l\'histoique de plus de  * mois. +
 
 Vous pouvez maintenant : +
 
-- TÈlÈcharger cette sauvegarde +
+- T√©l√©charger cette sauvegarde +
 - La restaurer +
 - La supprimer +
 - Supprimer l\'histoique de plus de  * mois. +
 
-IMPORTANT: ATTENTION ! Avant de supprimer votre historique : assurez vous que le fichier crÈÈ est bien valide.+
+IMPORTANT: ATTENTION ! Avant de supprimer votre historique : assurez vous que le fichier cr√©√© est bien valide.+
 
 ==== Import depuis un fichier local
-Vous pouvez importer vos donnÈes : +
+Vous pouvez importer vos donn√©es : +
 Votre fichier doit etre un .sql.gz , un sql
 
 IMPORTANT: ATTENTION - Le Format CSV n est pas pris en charge pour l import. +
 
 
-Les champs vides doivent etres renseignÈs par defaut ( entre cochÈ dans le table  colonne Type ) : +
+Les champs vides doivent etres renseign√©s par defaut ( entre coch√© dans le table  colonne Type ) : +
 image:table_structure.jpg[] +
 
 //Votre CSV doit contenir les champs suivant :
@@ -234,20 +234,20 @@ Voici un exemple de csv +
 //1341335211;2012-07-03;19:06:51;4734114;4204872;HP;4;44;3390;2;19
 //1341335395;2012-07-03;19:09:55;4734289;4204872;HP;4;44;3420;2;23
 //----
-La structure de la table doit etre identique a tableau affichÈe dans l onglet Save. +
+La structure de la table doit etre identique a tableau affich√©e dans l onglet Save. +
 [red]#ATTENTION CETTE PROCEDURE EST RESERVEEE AUX PERSONNES CONNAISSANT UN MINIMUM MYSQL#
 
 
 ==== Import Distant
 image:backup_distant.png[]
-Vous pouvez recupÈrer les donnÈes sur une base distante. +
+Vous pouvez recup√©rer les donn√©es sur une base distante. +
 (A faire : automatiser l import distant pour un fonctionnement en esclave ) +
 
-Inserer le host , login Mysql et mot de passe Mysql du distant pour vous connecter a la base de donnÈes. +
+Inserer le host , login Mysql et mot de passe Mysql du distant pour vous connecter a la base de donn√©es. +
 
-Vous pouvez importer les donnÈes :
+Vous pouvez importer les donn√©es :
 
- - Toute la base de donnÈes du distant
+ - Toute la base de donn√©es du distant
  - Du jour +
  - Du mois +
  - De plus de * mois (Si vous avez rempli le champ	 "Sauvegarde les valeurs de plus de * mois" ) +
@@ -257,7 +257,7 @@ image:distant_type.png[]
 ===== ATTENTION
 
 Si vous avez un message de ce type : 504 Gateway Time-out +
-PHP a une limite d'ÈxÈcution et affiche une erreur quand il arrive au maximum. +
+PHP a une limite d'√©x√©cution et affiche une erreur quand il arrive au maximum. +
 Votre import ou votre sauvegarde est toujours en cours , il tourne en tache de fond. +
 Attendre le message dans la partie information : +
 ----
