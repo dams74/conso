@@ -8,55 +8,55 @@
 Le plugin Conso permet de suivre sa consommation : +
 - ELECTRIQUE : D'un compteur EDF via la Teleinformation +
 - ELECTRIQUE : D'un module type Fibaro. +
-- EAU : Compteur a impultion +
+- EAU : Compteur a impulsion +
 
-Pour cela il faut selectionner les commandes associées dans chaques paramètres. +
+Pour cela il faut selectionner les commandes associÃ©es dans chaques paramÃ¨tres. +
 Il est compatible avec les abonnements de base et les Heures pleines / Heures Creuses. +
 
-Il vous faut récupérer les commandes dans jeedom pour faire fonctionner le plugin :
+Il vous faut rÃ©cupÃ©rer les commandes dans jeedom pour faire fonctionner le plugin :
 
-Les parametres obligatoires sont : +
+Les paramÃ¨tres obligatoires sont : +
 
 *Teleinfo Abonnement de base :* +
 
 	- L'index ( BASE )
-	- La puissance apparente instantanée ( PAPP )
+	- La puissance apparente instantanÃ©e ( PAPP )
 
 *Teleinfo Abonnement HP/HC* +
 
 	-Index heures creuses
 	-Index heures pleine
 	-La tranche tarifaire ( PTEC )
-	-La puissance instantannée ( PAPP )
+	-La puissance instantannÃ©e ( PAPP )
 
 *Autres Modules avec la commande consommation disponible  (Ex : FGD-212)* +
 
-	-Puissance instantanée
+	-Puissance instantanÃ©e
 	-Consommation
 
 *Autres Modules  sans la commande consommation disponible (Ex : FGD-211) * +
 
 	- Etat
-	- Consommation électrique déclarée
+	- Consommation Ã©lectrique dÃ©clarÃ©e
 
 *Parametres optionnels* +
 
-	- Intensité instantanée +
-	- Intensité maximal +
-	- Température Exterieure
+	- IntensitÃ© instantanÃ©e +
+	- IntensitÃ© maximal +
+	- TempÃ©rature Exterieure
 
 Il permet de visualiser : +
 
- - La puissance instantanée +
- - La température du jour
+ - La puissance instantanÃ©e +
+ - La tempÃ©rature du jour
  - La consommation du jour +
  - La consommation de la veille +
  - La puissance maximale et minimale du jour +
- - Les degrés jour unifiés (DJU) +
- - Les températures +
- - Les prévisions de consommation lorsqu'il existe un historique de plus d'un an +
+ - Les degrÃ©s jour unifiÃ©s (DJU) +
+ - Les tempÃ©ratures +
+ - Les prÃ©visions de consommation lorsqu'il existe un historique de plus d'un an +
 
-Il génère automatiquement  les graphiques : +
+Il gÃ©nÃ¨re automatiquement  les graphiques : +
 
 	- Consommation des 7 derniers jours (en Kwh ) +
 	- Consommation du mois par semaine (en Kwh ) +
@@ -69,16 +69,16 @@ Il génère automatiquement  les graphiques : +
 
 Le plugin vous permet aussi  : +
 
-	- De Générer des graphiques sur une période donnée +
-	- De générer les factures sur une période donnée (Electricité uniquement ) +
-	- De sauvegarder toutes vos données ou d'importer vos données depuis un serveur distant ou par fichier
+	- De GÃ©nÃ©rer des graphiques sur une pÃ©riode donnÃ©e +
+	- De gÃ©nÃ©rer les factures sur une pÃ©riode donnÃ©e (ElectricitÃ© uniquement ) +
+	- De sauvegarder toutes vos donnÃ©es ou d'importer vos donnÃ©es depuis un serveur distant ou par fichier
 
 
 image:presentation.jpg[]
 
 '''
 
-=== Configuration de l'équipement
+=== Configuration de l'Ã©quipement
 include::partie_1.asciidoc[]
 
 '''
